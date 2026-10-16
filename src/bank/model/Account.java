@@ -16,7 +16,7 @@ public class Account {
         System.out.println("");
         System.out.println("--------------------      Customer Details      --------------------");
         System.out.println(" Account Number: " + accountNumber);
-        System.out.println(" Account Balance: " + accountBalance);
+        System.out.pr6intln(" Account Balance: " + accountBalance);
         System.out.println(" Holder Name: " + holderName);
 
     }
@@ -39,7 +39,7 @@ public class Account {
             System.out.println("Deposit Sucuessful  " + amount);
             System.out.println("Updated Balance Is  " + accountBalance);
         } else {
-            System.out.println("Deposit Failed. Minimum deposit amount is 100");
+            System.out.println("Deposit Failed . Minimum deposit amount is 100");
         }
         return accountBalance;
     }
