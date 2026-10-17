@@ -16,7 +16,7 @@ public class Account {
         System.out.println("");
         System.out.println("--------------------      Customer Details      --------------------");
         System.out.println(" Account Number: " + accountNumber);
-        System.out.pr6intln(" Account Balance: " + accountBalance);
+        System.out.println(" Account Balance: " + accountBalance);
         System.out.println(" Holder Name: " + holderName);
 
     }
